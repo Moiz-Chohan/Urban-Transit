@@ -1,5 +1,3 @@
-"""Flask API for the UrbanTransit IQ dashboard."""
-
 import hashlib
 import os
 import sqlite3
