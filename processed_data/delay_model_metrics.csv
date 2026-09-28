@@ -1,0 +1,2 @@
+accuracy,precision_macro,recall_macro,f1_macro,train_rows,test_rows,features
+0.85948,0.8628868256974025,0.8645707498316545,0.861686192198767,200000,50000,"route_num, stop_num, vehicle_num, day_of_week, month, hour, historical_route_delay"

@@ -1,0 +1,2 @@
+model_mae,model_rmse,model_r2,baseline_mae,baseline_rmse,baseline_method,train_days,test_days,forecast_horizon_days
+2032.4851693741793,2630.3624477964445,0.5532131376510961,3051.3055555555557,4278.325483696214,previous-day (lag_1),286,72,14

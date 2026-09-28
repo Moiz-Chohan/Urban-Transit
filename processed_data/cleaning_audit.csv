@@ -1,0 +1,5 @@
+table,issue,rule,corrected_value,final_status
+passenger_counts,negative_passenger_count,Remove records where passenger_count < 0,Record removed from Spark clean table,handled by Spark cleaning
+passenger_counts,capacity_violation,Flag passenger_count > capacity for review,Retained for audit; extreme rows are flagged,flagged
+delays,extreme_delay_over_120m,Flag absolute delay > 120 minutes,Retained for investigation,flagged
+tickets,duplicate_ticket_id,Deduplicate by ticket_id,Spark clean stage removes duplicate keys where applicable,handled by cleaning

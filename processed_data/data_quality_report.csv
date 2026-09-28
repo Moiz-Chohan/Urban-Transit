@@ -1,0 +1,13 @@
+table,rule,count,severity
+passenger_counts,negative_passenger_count,1,error
+passenger_counts,capacity_violation,1,warning
+passenger_counts,invalid_capacity,0,error
+passenger_counts,missing_trip_id,0,error
+passenger_counts,duplicate_count_id,0,error
+delays,negative_delay,71859,warning
+delays,extreme_delay_over_120m,3,warning
+delays,duplicate_delay_id,0,error
+tickets,duplicate_ticket_id,0,error
+tickets,cancelled_tickets,60283,info
+trips,duplicate_trip_id,0,error
+trips,missing_route_id,0,error

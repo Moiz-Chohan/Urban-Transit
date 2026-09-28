@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,train_rows,test_rows,features
+0.9493,0.3366277920537656,0.498390400936494,0.401840490797546,400000,100000,"capacity, boarding, alighting, route_num, stop_num, day_of_week, month, hour, stop_sequence, route_train_rate"

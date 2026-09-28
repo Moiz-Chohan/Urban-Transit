@@ -1,0 +1,6 @@
+model_version,model,task,validation,artifact
+python-delay-v2,RandomForestClassifier,Delay severity,Chronological 80/20,models/delay_model.joblib
+python-occupancy-v2,RandomForestClassifier,Occupancy risk,Chronological 80/20,models/occupancy_risk_model.joblib
+python-demand-v2,RandomForestRegressor,Demand forecasting,Chronological 80/20,models/demand_forecast_model.joblib
+python-route-cluster-v1,KMeans,Route clustering,Feature-space clustering,models/route_clustering_model.joblib
+python-passenger-segment-v1,KMeans,Passenger segmentation,Feature-space clustering,models/passenger_segmentation_model.joblib

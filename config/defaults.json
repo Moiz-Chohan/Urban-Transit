@@ -1,0 +1,17 @@
+{
+  "occupancy": {
+    "moderate": 0.60,
+    "high": 0.80,
+    "overcrowded": 0.95,
+    "critical": 1.10
+  },
+  "delay_minutes": {
+    "minor": 5,
+    "moderate": 10,
+    "major": 20,
+    "severe": 40
+  },
+  "forecast_horizon_days": 14,
+  "comparison_cases": 100,
+  "random_seed": 42
+}

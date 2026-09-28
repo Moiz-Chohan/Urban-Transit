@@ -1,0 +1,19 @@
+table,column,type,description,key
+passengers,passenger_id,string,Unique passenger identifier,PK
+passengers,passenger_type,string,Synthetic segment label,
+routes,route_id,string,Route identifier,PK
+stops,stop_id,string,Stop identifier,PK
+route_stops,route_id,string,Route foreign key,FK
+route_stops,stop_id,string,Stop foreign key,FK
+trips,trip_id,string,Trip identifier,PK
+trips,route_id,string,Route foreign key,FK
+trips,vehicle_id,string,Vehicle foreign key,FK
+tickets,ticket_id,string,Ticket identifier,PK
+tickets,passenger_id,string,Passenger foreign key,FK
+tickets,trip_id,string,Trip foreign key,FK
+schedules,trip_id,string,Trip foreign key,FK
+vehicles,vehicle_id,string,Vehicle identifier,PK
+passenger_counts,count_id,string,Movement record identifier,PK
+delays,delay_id,string,Delay record identifier,PK
+gps_events,gps_id,string,GPS event identifier,PK
+service_calendar,service_id,string,Service calendar identifier,PK
